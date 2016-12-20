@@ -1,0 +1,86 @@
+[
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.InterOpHAFailover"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.BasicScheduler"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VerifyResources"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.RXTraffic"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.JumboFrames"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VerifyShares"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion"
+    }, 
+    {
+        "result": "Failed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.InfraShareOrder"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.InteropVMotion"
+    }, 
+    {
+        "result": "Passed", 
+        "testname": "EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove"
+    }
+]

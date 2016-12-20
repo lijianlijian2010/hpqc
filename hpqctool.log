@@ -1,0 +1,264 @@
+2016-12-15 18:57:10 INFO     hpqctool cmdOpts are Namespace(buildnum=None, domain='VSPHERE', externalurl=None, json=None, logdir='.', onlypass=False, project='ESX', stdout=True, tempestdir=None, testsetid='80025', testsetspath=None, user='sqian', vdnetdir='/WDC/results/esx/4/1/2/2/5/6/6/4')
+2016-12-15 18:57:12 INFO     Found 367 testcases in testsets=80025
+2016-12-15 18:57:12 INFO     hpqc testname: 'TSOSGBoundaryTest' does not include '.'
+2016-12-15 18:57:14 INFO     Test cases results from vdnet log folder:
+2016-12-15 18:57:14 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                    Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                         Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                              Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.BasicScheduler                                       Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                     Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VerifyResources                                      Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                             Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                            Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.RXTraffic                                            Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.JumboFrames                                          Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                        Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                      Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                            Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                              Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VerifyShares                                         Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                     Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                     Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                      Failed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.InteropVMotion                                       Passed
+2016-12-15 18:57:14 INFO       EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                Passed
+2016-12-15 18:57:15 INFO     get build number: 4787850 from vdnet log
+2016-12-15 18:57:15 WARNING  Testcases NOT FOUND in testset[s]: 80025
+2016-12-15 18:57:15 WARNING  ------------------------------------------------------------------------------------------------------------------------
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                     NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                          NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                               NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.BasicScheduler                                        NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                      NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyResources                                       NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                              NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                             NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.BasicPlacement                                        NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.RXTraffic                                             NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.JumboFrames                                           NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                         NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                       NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                             NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                               NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyShares                                          NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                      NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                      NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                 NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                       NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.InteropVMotion                                        NOT_FOUND
+2016-12-15 18:57:15 WARNING    EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                 NOT_FOUND
+2016-12-15 18:59:59 INFO     hpqctool cmdOpts are Namespace(buildnum=None, domain='VSPHERE', externalurl=None, json=None, logdir='.', onlypass=False, project='ESX', stdout=True, tempestdir=None, testsetid='80025', testsetspath=None, user='sqian', vdnetdir='/WDC/results/esx/4/1/2/2/5/6/6/4')
+2016-12-15 19:00:01 INFO     Found 367 testcases in testsets=80025
+2016-12-15 19:00:01 INFO     hpqc testname: 'TSOSGBoundaryTest' does not include '.'
+2016-12-15 19:00:02 INFO     Test cases results from vdnet log folder:
+2016-12-15 19:00:02 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                    Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                         Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                              Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.BasicScheduler                                       Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                     Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VerifyResources                                      Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                             Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                            Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.RXTraffic                                            Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.JumboFrames                                          Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                        Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                      Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                            Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                              Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VerifyShares                                         Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                     Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                     Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                      Failed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.InteropVMotion                                       Passed
+2016-12-15 19:00:02 INFO       EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                Passed
+2016-12-15 19:00:02 INFO     get build number: 4787850 from vdnet log
+2016-12-15 19:00:02 WARNING  Testcases NOT FOUND in testset[s]: 80025
+2016-12-15 19:00:02 WARNING  ------------------------------------------------------------------------------------------------------------------------
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                     NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                          NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                               NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.BasicScheduler                                        NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                      NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyResources                                       NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                              NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                             NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.BasicPlacement                                        NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.RXTraffic                                             NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.JumboFrames                                           NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                         NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                       NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                             NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                               NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyShares                                          NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                      NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                      NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                 NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                       NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.InteropVMotion                                        NOT_FOUND
+2016-12-15 19:00:02 WARNING    EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                 NOT_FOUND
+2016-12-15 19:01:11 INFO     hpqctool cmdOpts are Namespace(buildnum=None, domain='VSPHERE', externalurl=None, json=None, logdir='.', onlypass=False, project='ESX', stdout=True, tempestdir=None, testsetid='80025', testsetspath=None, user='sqian', vdnetdir='/WDC/results/esx/4/1/2/2/5/6/6/4')
+2016-12-15 19:01:13 INFO     Found 367 testcases in testsets=80025
+2016-12-15 19:01:13 INFO     hpqc testname: 'TSOSGBoundaryTest' does not include '.'
+2016-12-15 19:01:13 INFO     Test cases results from vdnet log folder:
+2016-12-15 19:01:13 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                    Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                         Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                              Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.BasicScheduler                                       Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                     Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VerifyResources                                      Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                             Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                            Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.RXTraffic                                            Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.JumboFrames                                          Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                        Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                      Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                            Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                              Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VerifyShares                                         Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                     Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                     Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                      Failed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.InteropVMotion                                       Passed
+2016-12-15 19:01:13 INFO       EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                Passed
+2016-12-15 19:01:13 INFO     get build number: 4787850 from vdnet log
+2016-12-15 19:01:13 WARNING  Testcases NOT FOUND in testset[s]: 80025
+2016-12-15 19:01:13 WARNING  ------------------------------------------------------------------------------------------------------------------------
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                     NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                          NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                               NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.BasicScheduler                                        NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                      NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyResources                                       NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                              NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                             NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.BasicPlacement                                        NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.RXTraffic                                             NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.JumboFrames                                           NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                         NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                       NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                             NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                               NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyShares                                          NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                      NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                      NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                 NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                       NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.InteropVMotion                                        NOT_FOUND
+2016-12-15 19:01:13 WARNING    EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                 NOT_FOUND
+2016-12-15 19:01:54 INFO     hpqctool cmdOpts are Namespace(buildnum=None, domain='VSPHERE', externalurl=None, json=None, logdir='.', onlypass=False, project='ESX', stdout=True, tempestdir=None, testsetid='80025', testsetspath=None, user='sqian', vdnetdir='/WDC/results/esx/4/1/2/2/5/6/6/4')
+2016-12-15 19:01:55 INFO     Found 367 testcases in testsets=80025
+2016-12-15 19:01:55 INFO     hpqc testname: 'TSOSGBoundaryTest' does not include '.'
+2016-12-15 19:01:55 INFO     Test cases results from vdnet log folder:
+2016-12-15 19:01:55 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                    Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                         Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                              Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.BasicScheduler                                       Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                     Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VerifyResources                                      Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                             Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                            Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.RXTraffic                                            Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.JumboFrames                                          Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                        Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                      Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                            Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                              Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VerifyShares                                         Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                     Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                     Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                      Failed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.InteropVMotion                                       Passed
+2016-12-15 19:01:55 INFO       EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                Passed
+2016-12-15 19:01:56 INFO     get build number: 4787850 from vdnet log
+2016-12-15 19:01:56 INFO     Succeeded to upload Passed cases
+2016-12-15 19:01:56 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 19:01:56 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 19:01:56 WARNING  Testcases NOT FOUND in testset[s]: 80025
+2016-12-15 19:01:56 WARNING  ------------------------------------------------------------------------------------------------------------------------
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                     NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                          NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                               NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.BasicScheduler                                        NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                      NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyResources                                       NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                              NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                             NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.RXTraffic                                             NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.JumboFrames                                           NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                         NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                       NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                             NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                               NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyShares                                          NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                      NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                      NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                 NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                       NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.InteropVMotion                                        NOT_FOUND
+2016-12-15 19:01:56 WARNING    EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                 NOT_FOUND
+2016-12-15 19:02:22 INFO     hpqctool cmdOpts are Namespace(buildnum=None, domain='VSPHERE', externalurl=None, json=None, logdir='.', onlypass=False, project='ESX', stdout=True, tempestdir=None, testsetid='80025', testsetspath=None, user='sqian', vdnetdir='/WDC/results/esx/4/1/2/2/5/6/6/4')
+2016-12-15 19:02:24 INFO     Found 367 testcases in testsets=80025
+2016-12-15 19:02:24 INFO     hpqc testname: 'TSOSGBoundaryTest' does not include '.'
+2016-12-15 19:02:24 INFO     Test cases results from vdnet log folder:
+2016-12-15 19:02:25 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                    Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                         Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                              Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.BasicScheduler                                       Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                     Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VerifyResources                                      Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                             Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                            Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.RXTraffic                                            Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.JumboFrames                                          Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                        Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                      Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                            Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                              Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VerifyShares                                         Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                     Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                     Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                      Failed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.InteropVMotion                                       Passed
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                Passed
+2016-12-15 19:02:25 INFO     get build number: 4787850 from vdnet log
+2016-12-15 19:02:25 INFO     Succeeded to upload Passed cases
+2016-12-15 19:02:25 INFO     ------------------------------------------------------------------------------------------
+2016-12-15 19:02:25 INFO       EsxServer.NetIORM.NetIOCv3.BasicPlacement                                       Passed
+2016-12-15 19:02:25 WARNING  Testcases NOT FOUND in testset[s]: 80025
+2016-12-15 19:02:25 WARNING  ------------------------------------------------------------------------------------------------------------------------
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.InterOpHAFailover                                     NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementChangeVmnicState                          NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigSLRCombinations                               NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.BasicScheduler                                        NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigVSSToVDS                                      NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyResources                                       NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigReleaseBandwidth                              NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VMConfigEnableDisableNIOC                             NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.RXTraffic                                             NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.JumboFrames                                           NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.FiveTuplesTCP                                         NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.MarkDSCPOnePTag                                       NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VCAdmissionControlWithDRS                             NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.NicPlacementWithTeaming                               NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyShares                                          NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.VerifyVDSUpgrade                                      NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficMGMT                                      NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.InfraTrafficFTVMotion                                 NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.InfraShareOrder                                       NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.InteropVMotion                                        NOT_FOUND
+2016-12-15 19:02:25 WARNING    EsxServer.NetIORM.NetIOCv3.ResourcePoolAddRemove                                 NOT_FOUND
